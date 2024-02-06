@@ -1,0 +1,35 @@
+.bilibiliVideo {
+    height: 100px;
+    padding-right: 10px;
+}
+
+.coverContainer {
+    width: 160px;
+}
+
+.title {
+    margin-bottom: 10px;
+}
+
+.author {
+    
+}
+
+@media (max-width: 425px) {
+    .bilibiliVideo {
+        height: 60px;
+    }
+
+    .coverContainer {
+        width: 96px;
+    }
+
+    .title {
+        margin-bottom: 0;
+        font-size: 0.9rem;
+    }
+
+    .author {
+        font-size: 0.8rem;
+    }
+}

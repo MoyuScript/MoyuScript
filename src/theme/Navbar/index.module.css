@@ -1,0 +1,7 @@
+.userName {}
+
+@media (max-width: 425px) {
+    .userName {
+        display: none;
+    }
+}

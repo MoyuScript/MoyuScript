@@ -1,0 +1,81 @@
+.githubRepo {
+    text-align: center;
+}
+
+
+.githubRepo > a {
+    color: var(--ifm-color-content);
+    display: flex;
+    background-color: var(--ifm-code-background);
+    border-radius: var(--ifm-global-radius);
+    overflow: hidden;
+    align-items: center;
+}
+
+.githubRepo > a:hover {
+    color: var(--ifm-color-content);
+    text-decoration: none;
+}
+
+
+.left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 60px;
+    color: white;
+    font-size: 30px;
+    background: black;
+}
+
+.right {
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
+}
+
+.iconList {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    font-size: 10px;
+    color: var(--ifm-color-gray-600);
+}
+
+.iconList > li {
+    margin: 0 10px 0 0 !important;
+    white-space: nowrap;
+}
+
+.iconList > li > i {
+    margin-right: 2px;
+}
+
+.title {
+
+}
+
+@media screen and (min-width: 425px) {
+    .left {
+        width: 120px;
+        height: 80px;
+        font-size: 40px;
+    }
+
+    .title {
+        margin-bottom: 4px;
+    }
+
+    .iconList {
+        font-size: 12px;
+    }
+
+    .iconList > li {
+        margin: 0 16px 0 0 !important;
+    }
+}

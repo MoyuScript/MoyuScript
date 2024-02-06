@@ -1,0 +1,25 @@
+{
+    "index_name": "blog-search",
+    "sitemap_urls": [
+        "https://moyuscript.github.io/MoyuScript/sitemap.xml"
+    ],
+    "stop_urls": [
+        "^https://moyuscript.github.io/MoyuScript/$",
+        "https://moyuscript.github.io/MoyuScript/archives/(.*)?",
+        "https://moyuscript.github.io/MoyuScript/tags/(.*)?",
+        "https://moyuscript.github.io/MoyuScript/page/(.*)?"
+    ],
+    "selectors": {
+        "lvl0": {
+            "selector": "article header h1",
+            "global": true
+        },
+        "lvl1": "article h1",
+        "lvl2": "article h2",
+        "lvl3": "article h3",
+        "lvl4": "article h4",
+        "lvl5": "article h5",
+        "text": "article p, article li"
+    },
+    "conversation_id": []
+}
