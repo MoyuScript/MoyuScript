@@ -125,7 +125,7 @@ const config = {
             },
             {
               label: 'GnuPG 公钥',
-              to: `${url}${baseUrl}/MoyuScript_0xD0F67452_public.asc`,
+              to: 'https://github.com/MoyuScript.gpg',
             }
           ]
         }
